@@ -7,7 +7,6 @@ public class Penilaian {
         System.out.print("Masukkan nilai = ");
         int nilai = input.nextInt();
 
-        // Cek dulu apakah nilai valid (0 - 100)
         if (nilai >= 0 && nilai <= 100) {
             System.out.print("Anda mendapatkan nilai : ");
             
